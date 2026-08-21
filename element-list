@@ -10,7 +10,6 @@ com.wualabs.qtsurfer.engine.core.value
 com.wualabs.qtsurfer.engine.indicators.averages
 com.wualabs.qtsurfer.engine.indicators.averages.pro
 com.wualabs.qtsurfer.engine.indicators.bollinger
-com.wualabs.qtsurfer.engine.indicators.cache
 com.wualabs.qtsurfer.engine.indicators.core
 com.wualabs.qtsurfer.engine.indicators.distance
 com.wualabs.qtsurfer.engine.indicators.helpers
