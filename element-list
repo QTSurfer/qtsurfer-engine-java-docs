@@ -7,9 +7,6 @@ com.wualabs.qtsurfer.engine.core.event
 com.wualabs.qtsurfer.engine.core.instrument
 com.wualabs.qtsurfer.engine.core.state
 com.wualabs.qtsurfer.engine.core.value
-com.wualabs.qtsurfer.engine.exchange
-com.wualabs.qtsurfer.engine.exchange.trade
-com.wualabs.qtsurfer.engine.exchange.trade.execution
 com.wualabs.qtsurfer.engine.indicators.averages
 com.wualabs.qtsurfer.engine.indicators.averages.pro
 com.wualabs.qtsurfer.engine.indicators.bollinger

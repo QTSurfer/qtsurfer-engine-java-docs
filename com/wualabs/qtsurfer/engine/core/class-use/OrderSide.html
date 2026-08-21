@@ -60,10 +60,8 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-last">Description</div>
 <div class="col-first even-row-color"><a href="#com.wualabs.qtsurfer.engine.core">com.wualabs.qtsurfer.engine.core</a></div>
 <div class="col-last even-row-color">&nbsp;</div>
-<div class="col-first odd-row-color"><a href="#com.wualabs.qtsurfer.engine.exchange.trade">com.wualabs.qtsurfer.engine.exchange.trade</a></div>
+<div class="col-first odd-row-color"><a href="#com.wualabs.qtsurfer.engine.strategy.backtest.simulation">com.wualabs.qtsurfer.engine.strategy.backtest.simulation</a></div>
 <div class="col-last odd-row-color">&nbsp;</div>
-<div class="col-first even-row-color"><a href="#com.wualabs.qtsurfer.engine.strategy.backtest.simulation">com.wualabs.qtsurfer.engine.strategy.backtest.simulation</a></div>
-<div class="col-last even-row-color">&nbsp;</div>
 </div>
 <section class="class-uses">
 <ul class="block-list">
@@ -119,44 +117,6 @@ the order they are declared.</div>
  long&nbsp;timestamp)</code></div>
 <div class="col-last even-row-color">
 <div class="block">Creates an instance of a <code>Trade</code> record class.</div>
-</div>
-</div>
-</section>
-</li>
-<li>
-<section class="detail" id="com.wualabs.qtsurfer.engine.exchange.trade">
-<h2>Uses of <a href="../OrderSide.html" title="enum class in com.wualabs.qtsurfer.engine.core">OrderSide</a> in <a href="../../exchange/trade/package-summary.html">com.wualabs.qtsurfer.engine.exchange.trade</a></h2>
-<div class="caption"><span>Methods in <a href="../../exchange/trade/package-summary.html">com.wualabs.qtsurfer.engine.exchange.trade</a> with parameters of type <a href="../OrderSide.html" title="enum class in com.wualabs.qtsurfer.engine.core">OrderSide</a></span></div>
-<div class="summary-table three-column-summary">
-<div class="table-header col-first">Modifier and Type</div>
-<div class="table-header col-second">Method</div>
-<div class="table-header col-last">Description</div>
-<div class="col-first even-row-color"><code>default <a href="../../exchange/trade/execution/OrderExecutionResult.html" title="class in com.wualabs.qtsurfer.engine.exchange.trade.execution">OrderExecutionResult</a><wbr>&lt;?&gt;</code></div>
-<div class="col-second even-row-color"><span class="type-name-label">QTSTradeService.</span><code><a href="../../exchange/trade/QTSTradeService.html#placeLimitOrder(com.wualabs.qtsurfer.engine.core.OrderSide,com.wualabs.qtsurfer.engine.core.instrument.Instrument,java.math.BigDecimal,java.math.BigDecimal,java.util.Collection)" class="member-name-link">placeLimitOrder</a><wbr>(@NonNull <a href="../OrderSide.html" title="enum class in com.wualabs.qtsurfer.engine.core">OrderSide</a>&nbsp;side,
- <a href="../instrument/Instrument.html" title="interface in com.wualabs.qtsurfer.engine.core.instrument">Instrument</a>&nbsp;instrument,
- @NonNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/math/BigDecimal.html" title="class or interface in java.math" class="external-link">BigDecimal</a>&nbsp;amount,
- @NonNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/math/BigDecimal.html" title="class or interface in java.math" class="external-link">BigDecimal</a>&nbsp;price,
- <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="../../exchange/trade/OrderFlag.html" title="enum class in com.wualabs.qtsurfer.engine.exchange.trade">OrderFlag</a>&gt;&nbsp;flags)</code></div>
-<div class="col-last even-row-color">
-<div class="block">Places a limit order.</div>
-</div>
-<div class="col-first odd-row-color"><code>default <a href="../../exchange/trade/execution/OrderExecutionResult.html" title="class in com.wualabs.qtsurfer.engine.exchange.trade.execution">OrderExecutionResult</a><wbr>&lt;?&gt;</code></div>
-<div class="col-second odd-row-color"><span class="type-name-label">QTSTradeService.</span><code><a href="../../exchange/trade/QTSTradeService.html#placeMarketOrder(com.wualabs.qtsurfer.engine.core.OrderSide,com.wualabs.qtsurfer.engine.core.instrument.Instrument,java.math.BigDecimal)" class="member-name-link">placeMarketOrder</a><wbr>(@NonNull <a href="../OrderSide.html" title="enum class in com.wualabs.qtsurfer.engine.core">OrderSide</a>&nbsp;side,
- <a href="../instrument/Instrument.html" title="interface in com.wualabs.qtsurfer.engine.core.instrument">Instrument</a>&nbsp;instrument,
- @NonNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/math/BigDecimal.html" title="class or interface in java.math" class="external-link">BigDecimal</a>&nbsp;amount)</code></div>
-<div class="col-last odd-row-color">
-<div class="block">Places a market order.</div>
-</div>
-<div class="col-first even-row-color"><code>default <a href="../../exchange/trade/execution/OrderExecutionResult.html" title="class in com.wualabs.qtsurfer.engine.exchange.trade.execution">OrderExecutionResult</a><wbr>&lt;?&gt;</code></div>
-<div class="col-second even-row-color"><span class="type-name-label">QTSTradeService.</span><code><a href="../../exchange/trade/QTSTradeService.html#placeStopOrder(com.wualabs.qtsurfer.engine.core.OrderSide,com.wualabs.qtsurfer.engine.core.instrument.Instrument,java.math.BigDecimal,java.math.BigDecimal,java.math.BigDecimal,com.wualabs.qtsurfer.engine.exchange.trade.StopIntention,org.apache.commons.lang3.tuple.Pair...)" class="member-name-link">placeStopOrder</a><wbr>(@NonNull <a href="../OrderSide.html" title="enum class in com.wualabs.qtsurfer.engine.core">OrderSide</a>&nbsp;side,
- <a href="../instrument/Instrument.html" title="interface in com.wualabs.qtsurfer.engine.core.instrument">Instrument</a>&nbsp;instrument,
- @NonNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/math/BigDecimal.html" title="class or interface in java.math" class="external-link">BigDecimal</a>&nbsp;amount,
- @NonNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/math/BigDecimal.html" title="class or interface in java.math" class="external-link">BigDecimal</a>&nbsp;stopPrice,
- <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/math/BigDecimal.html" title="class or interface in java.math" class="external-link">BigDecimal</a>&nbsp;limitPrice,
- @NonNull <a href="../../exchange/trade/StopIntention.html" title="enum class in com.wualabs.qtsurfer.engine.exchange.trade">StopIntention</a>&nbsp;intention,
- org.apache.commons.lang3.tuple.Pair&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>,<wbr><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&gt;...&nbsp;extraParams)</code></div>
-<div class="col-last even-row-color">
-<div class="block">Places a stop order.</div>
 </div>
 </div>
 </section>
